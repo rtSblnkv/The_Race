@@ -1,2 +1,2 @@
 # The_Race
-Android приложение - 2D гонка
+Android приложение - 2D Racer
