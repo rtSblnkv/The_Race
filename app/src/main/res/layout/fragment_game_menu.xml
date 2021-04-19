@@ -1,0 +1,52 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@drawable/menu_fragment"
+    android:orientation="vertical"
+    tools:context="game_menu">
+
+
+    <ImageButton
+        android:id="@+id/button_menu_resume"
+        android:layout_width="103dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/button_resume"
+        app:layout_constraintBottom_toTopOf="@+id/button_menu_restart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <ImageButton
+        android:id="@+id/button_menu_restart"
+        android:layout_width="97dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/button_restart"
+        app:layout_constraintBottom_toTopOf="@+id/button_menu_exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button_menu_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/button_exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
