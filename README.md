@@ -16,4 +16,10 @@ Android приложение - 2D Racer
 # Pause game
 ![Pause game](https://github.com/rtSblnkv/The_Race/blob/master/images/stop.jpg)
 
+# Game process
+![Pause game](https://github.com/rtSblnkv/The_Race/blob/master/images/game_process.jpg)
+
+# Game over
+![Pause game](https://github.com/rtSblnkv/The_Race/blob/master/images/game_over.jpg)
+
 
