@@ -9,6 +9,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.MutableLiveData;
@@ -19,7 +20,7 @@ public class RaceActivivty extends AppCompatActivity implements game_menu.OnResu
     FrameLayout fr;
     game_menu menu;
 
-    @android.support.annotation.RequiresApi(api = Build.VERSION_CODES.HONEYCOMB_MR2)
+    @RequiresApi(api = Build.VERSION_CODES.HONEYCOMB_MR2)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

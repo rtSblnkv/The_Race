@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity  {
             R.raw.blinding_lights,
             R.raw.secrets,
             R.raw.illegal_rider,
-            R.raw.in_your_eyes
+            R.raw.in_your_eyes,
+            R.raw.vodila
     };
     Random r = new Random();
 
@@ -109,7 +110,7 @@ public class MainActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
             amir = (AudioManager) getSystemService(AUDIO_SERVICE);
-            int t = r.nextInt(4);
+            int t = r.nextInt(music.length);
             mediaPlayer = MediaPlayer.create(this, music[t]);
             if (soundOn) {
               mediaPlayer.start();
